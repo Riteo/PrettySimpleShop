@@ -39,6 +39,7 @@ public class ConfigManager
         instance = plugin;
         config = instance.getConfig();
         config.addDefault("showOffItems", true);
+        config.addDefault("showItemName", true);
         config.addDefault("showItemDetailsInActionBar", true);
         config.addDefault("deleteShopWhenBroken", false);
         config.addDefault("useWorldWhitelist", false);
