@@ -6,7 +6,7 @@
 
     <groupId>com.robomwm</groupId>
     <artifactId>PrettySimpleShop</artifactId>
-    <version>1.7.1</version>
+    <version>1.7.2</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -45,7 +45,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.2</version>
+                <version>3.2.4</version>
                 <configuration>
                     <minimizeJar>true</minimizeJar>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
@@ -73,7 +73,7 @@
             <plugin>
                 <groupId>pl.project13.maven</groupId>
                 <artifactId>git-commit-id-plugin</artifactId>
-                <version>4.0.0</version>
+                <version>4.0.1</version>
                 <executions>
                     <execution>
                         <id>get-the-git-infos</id>
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>com.destroystokyo.paper</groupId>
             <artifactId>paper-api</artifactId>
-            <version>1.14.4-R0.1-SNAPSHOT</version>
+            <version>1.15.2-R0.1-SNAPSHOT</version>
             <type>jar</type>
             <scope>provided</scope>
         </dependency>

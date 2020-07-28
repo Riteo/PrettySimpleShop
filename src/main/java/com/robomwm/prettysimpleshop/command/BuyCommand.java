@@ -221,6 +221,9 @@ class UnconfirmedTransaction
                 "\n\n", LazyUtil.getClickableCommand(config.getString("Confirm"), config.getString("buyCommandForConfirmationBook") + " " + amount + " confirm"),
                 " ", LazyUtil.getClickableCommand(config.getString("Cancel"), config.getString("buyCommandForConfirmationBook") + " cancel")));
 
+        bookMeta.setTitle("Is this a new 1.15 requirement?");
+        bookMeta.setAuthor("PrettySimpleShop");
+        bookMeta.setGeneration(BookMeta.Generation.ORIGINAL);
         book.setItemMeta(bookMeta);
         player.openBook(book);
     }
